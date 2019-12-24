@@ -13,10 +13,10 @@ slack = {
 }
 
 dic_query = {
-    "RC": "*",
-    "Login": "login.mvc",
-    "EmpJobs": "empjobs.mvc",
-    "EmpMyCandidates": "empmycandidates.mvc"
+    "RC": "'rms.jobsdb.com' OR 'rms.jobsdb.co.id' OR 'rms.jobsdb.co.th'",
+    "Login": "'login.mvc' AND ('rms.jobsdb.com' OR 'rms.jobsdb.co.id' OR 'rms.jobsdb.co.th')",
+    "EmpJobs": "'empjobs.mvc' AND ('rms.jobsdb.com' OR 'rms.jobsdb.co.id' OR 'rms.jobsdb.co.th')",
+    "EmpMyCandidates": "'empmycandidates.mvc' AND ('rms.jobsdb.com' OR 'rms.jobsdb.co.id' OR 'rms.jobsdb.co.th')"
 }
 
 email = {'from_addr': 'ifelse01@126.com', 'receivers': ['miragelu@seekasia.com']}
